@@ -54,3 +54,6 @@ dkms.conf
 # Error files
 *.rej
 *.orig
+
+# Dwm image file
+dwm.png
