@@ -1,0 +1,8 @@
+# Ignore these files
+
+*.o
+*.rej
+*.orig
+*.a
+*.png
+dwm
