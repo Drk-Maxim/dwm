@@ -1,10 +1,14 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
+
+#define ICONSIZE 16   /* icon size */
+#define ICONSPACING 5 /* space between icon and title */
+
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 1;        /* 0 means bottom bar */
+static const int topbar             = 1;        /* 0 means bottom bar */ 
 static const char *fonts[]          = { "ubuntumono nerd font:size=14" };
 static const char dmenufont[]       = "ubuntumono nerd font:size=14";
 static const char col_gray1[]       = "#222222";
