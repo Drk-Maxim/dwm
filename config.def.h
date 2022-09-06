@@ -10,6 +10,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */ 
+static const int user_bh	    = 4;	/* 2 is the default spacing around the bar's font */
 
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, > 0: pin systray to monitor X */
 static const unsigned int systrayonleft = 0;  	/* 0: systray on right corner, > 0: systray on left of status text */
